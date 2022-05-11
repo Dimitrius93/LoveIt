@@ -11,3 +11,13 @@ steps:
   settings:
     hugo_version: 0.62.0
     validate: true
+- name: push
+  image: appleboy/drone-git-push
+  pull: if-not-exists
+  settings:
+    branch: main
+    remote: git@github.com:FuzzyMistborn/publictest.git
+    commit: true
+    commit_message: "[CI SKIP] Test"
+    ssh_key:
+      from_secret: gh_ssh_key
