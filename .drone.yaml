@@ -1,0 +1,13 @@
+kind: pipeline
+name: default
+
+trigger:
+  branch:
+    - drone
+    
+steps:
+- name: build
+  image: plugins/hugo:latest
+  settings:
+    hugo_version: 0.62.0
+    validate: true
