@@ -16,7 +16,7 @@ steps:
   pull: if-not-exists
   settings:
     branch: main
-    remote: git@github.com:FuzzyMistborn/publictest.git
+    remote: git@github.com:Dimitrius93/LoveIt.git
     commit: true
     commit_message: "[CI SKIP] Test"
     ssh_key:
