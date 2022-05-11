@@ -15,9 +15,8 @@ steps:
   image: appleboy/drone-git-push
   pull: if-not-exists
   settings:
-    branch: main
+    branch: master
     remote: git@github.com:Dimitrius93/LoveIt.git
     commit: true
-    commit_message: "[CI SKIP] Test"
     ssh_key:
       from_secret: gh_ssh_key
