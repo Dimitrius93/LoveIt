@@ -22,8 +22,3 @@ steps:
     commit: true
     ssh_key:
       from_secret: ssh_deploy_key
-  when:
-    event:
-    - push
-    branch:
-    - master
