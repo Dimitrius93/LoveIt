@@ -18,6 +18,6 @@ steps:
   settings:
     branch: master
     remote: git@github.com:Dimitrius93/LoveIt.git
-    ssh_key: AAAAC3NzaC1lZDI1NTE5AAAAIPyJ/U9ZvJWoY+5j71JDBx8IYfBrivduuaUDLd0yJUA0
+    ssh_key: ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPyJ/U9ZvJWoY+5j71JDBx8IYfBrivduuaUDLd0yJUA0
     force: false
     commit: true
