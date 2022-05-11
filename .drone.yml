@@ -17,6 +17,6 @@ steps:
   image: appleboy/drone-git-push
   settings:
     branch: master
-    remote: github.com/Dimitrius93/LoveIt
+    remote: git@github.com/Dimitrius93:LoveIt.git
     force: false
     commit: true
