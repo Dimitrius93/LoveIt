@@ -19,4 +19,4 @@ steps:
     remote: git@github.com:Dimitrius93/LoveIt.git
     commit: true
     ssh_key:
-      from_secret: gh_ssh_key
+      from_secret: ssh_deploy_key
