@@ -18,3 +18,5 @@ steps:
     remote: git@github.com:Dimitrius93/LoveIt.git
     force: false
     commit: true
+    ssh_key:
+      from_secret: ssh_key
