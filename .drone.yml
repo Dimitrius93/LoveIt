@@ -19,4 +19,4 @@ steps:
     force: false
     commit: true
     ssh_key:
-      from_secret: ssh_key
+      from_secret: rsa
